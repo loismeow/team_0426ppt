@@ -18,8 +18,12 @@ public class BankManagementSystem implements AccountManagement {
 
     @Override
     public void printAllAccounts() {
-        for (Account account : accounts) {
-            System.out.println(account);
+        if (accounts.isEmpty()) {
+            System.out.println("생성된 계좌가 없습니다.");
+        } else {
+            for (Account account : accounts) {
+                System.out.println(account);
+            }
         }
     }
 

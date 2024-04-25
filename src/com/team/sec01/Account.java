@@ -37,10 +37,10 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
-                "accountId='" + accountId + '\'' +
-                ", customer=" + customer +
-                ", balance=" + balance +
-                '}';
+        return "계좌번호: " + accountId +
+                ", 고객 ID: " + customer.getCustomerId() +
+                ", 고객 이름: " + customer.getName() +
+                ", 잔액: " + balance;
+
     }
 }
