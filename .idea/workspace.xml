@@ -52,7 +52,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankManagementSystem">
+  <component name="RunManager" selected="Application.HollyCrazy">
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.team.sec01.Bank" />
       <module name="team_0426ppt" />
@@ -79,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HollyCrazy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.team.sec02.HollyCrazy" />
+      <module name="team_ppt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.team.sec02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HollyCrazy" />
         <item itemvalue="Application.BankManagementSystem" />
         <item itemvalue="Application.Bank" />
       </list>
