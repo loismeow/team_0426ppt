@@ -19,7 +19,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "customerId='" + customerId + '\'' +
+                "customerId='" + getCustomerId() + '\'' +
                 ", name='" + name + '\'' +
                 '}';
     }
